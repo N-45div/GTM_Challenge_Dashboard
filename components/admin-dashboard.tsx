@@ -165,9 +165,7 @@ export function AdminDashboard() {
                           )}
                         </div>
                         <div className="text-right">
-                          <p className="text-sm">Emails Sent: {campaign.emailsSent}</p>
                           <p className="text-sm">Open Rate: {campaign.openRate.toFixed(1)}%</p>
-                          <p className="text-sm">Click Rate: {campaign.clickRate.toFixed(1)}%</p>
                         </div>
                       </div>
                     ))}
